@@ -1,0 +1,68 @@
+.app {
+  position: relative;
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+}
+
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Use rgba to add transparency */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  height: 50vh;
+  width: 50vw;
+}
+
+.login-box h2 {
+  margin: 0;
+  color: #333333;
+}
+
+.login-box form {
+  margin-top: 20px;
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333333;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.login-box button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 20vw;
+  margin-top: 2vh;
+}
+
+
+
+
+
+
+
